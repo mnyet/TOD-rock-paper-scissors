@@ -2,12 +2,24 @@
 <html lang="en-US">
     <head>
         <meta charset="utf-8">
-        <script src="./script.js"></script>
+        <link rel="stylesheet" href="./main.css">
         <title>Rock, Paper, Scissor: Basic Javascript Game.</title>
     </head>
     <body>
-        <h1>If you see this message, please refresh the page or close me :D</h1>
-        <h3>If you didn't saw the game, please press F12 and proceed to the Console tab and refresh me again!</h3>
-        <p>i'm kinda lazy to make this now, but i'll revise this soon!</p>
+        <div class="container">
+            <div class="main-game">
+                <h1>Rock, Paper, Scissors!</h1>
+                <h3>Select a bet!</h3>
+                <div class="bet">
+                    <button id="rock">Rock</button>
+                    <button id="paper">Paper</button>
+                    <button id="scissor">Scissor</button>
+                </div>
+                <div id="result"></div>
+            </div>
+            <h4>© mnyessss 2022</h4>
+        </div>
     </body>
 </html>
+
+<script src="./script.js"></script>
