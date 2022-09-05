@@ -113,9 +113,13 @@ function pickFunction(rpp) {
             btnPaper.setAttribute("disabled", true);
             btnScissor.setAttribute("disabled", true);
 
-            if(pcScore > userScore){
+            if(pcScore >= userScore){
                 winner = 'computer!';
-            } else{
+            }
+            else if(pcScore == userScore){
+                winner = `no one, it's a tie!`;
+            }
+            else{
                 winner = 'you!'
             }
 
